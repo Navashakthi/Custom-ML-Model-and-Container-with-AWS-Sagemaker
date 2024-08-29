@@ -1,5 +1,6 @@
 # Custom-ML-Model-and-Container-with-AWS-Sagemaker
 Creating own Custom model and docker image with the train and serve scripts with AWS Sagemaker Notebooks and triggering model training and serving part from gitlab pipeline.
+This project workflow demonstrates a comprehensive and automated approach to building, training, and deploying a custom CNN model using AWS services, Docker, and GitLab CI/CD. By leveraging these tools, the workflow ensures scalability, reproducibility, and efficient management of the model lifecycle, from development to production deployment.
 
 ## Architecture
 ![workflow4](https://github.com/user-attachments/assets/6d50728a-1faf-4f31-8ab6-8dad75afde0f)
@@ -33,8 +34,6 @@ The workflow represents training and deploying a custom Convolutional Neural Net
 ### **7. Integration with GitLab**
 - **CI/CD Pipeline**: The entire workflow is integrated with a GitLab CI/CD pipeline, which automates the process of training, building Docker images, and deploying the model. This ensures continuous integration and deployment, allowing for rapid iteration and deployment of model updates.
 
-### **Summary**
-This workflow demonstrates a comprehensive and automated approach to building, training, and deploying a custom CNN model using AWS services, Docker, and GitLab CI/CD. By leveraging these tools, the workflow ensures scalability, reproducibility, and efficient management of the model lifecycle, from development to production deployment.
 
 ## Prerequisites
 Before running this pipeline, ensure you have the following prerequisites:
@@ -96,3 +95,10 @@ The pipeline consists of the following stages:
 
 By following these steps, you can execute the entire CI/CD pipeline to automate the training and deployment of a CNN model using Amazon SageMaker with GitLab CI/CD.
 
+## Contributing
+
+Contributions are welcome! Please submit a pull request with any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 2 License. See the [LICENSE](LICENSE) file for more information.
