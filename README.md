@@ -5,7 +5,7 @@ Creating own Custom model and docker image with the train and serve scripts with
 ![workflow4](https://github.com/user-attachments/assets/6d50728a-1faf-4f31-8ab6-8dad75afde0f)
 
 
-This image represents a workflow for training and deploying a custom Convolutional Neural Network (CNN) model using AWS services and Docker, integrated with a CI/CD pipeline managed by GitLab. Here's a breakdown of each step in the workflow:
+The workflow represents training and deploying a custom Convolutional Neural Network (CNN) model using AWS services and Docker, integrated with a CI/CD pipeline managed by GitLab. Here's a breakdown of each step in the workflow:
 
 ### **1. Training Custom Model with SageMaker Notebook**
 - **Starting Point**: The process begins with developing and training a custom CNN model using a SageMaker notebook. This environment allows you to prototype and fine-tune the model.
